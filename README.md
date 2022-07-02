@@ -17,5 +17,5 @@ This project uses the following sourse codes:
 - [rmislam](https://github.com/rmislam/PythonSIFT) 
 
 ## Result
-For a given query image smfm framework sorted related image base on chi-squrare distance similarity.
+For a given query image smfm framework sorted the related images base on chi-square distance similarity.
 ![siftresult](https://user-images.githubusercontent.com/87762511/176985953-b5731d9a-f109-49eb-8a55-d95147e3dda4.jpeg)
