@@ -14,3 +14,8 @@ Semantic gap is an important challenging problem in content-based image retrieva
 This project uses the following sourse codes:
 
 - [congve1](https://github.com/congve1/SaliencyRC) 
+
+
+## Result
+For a given query image smfm framework sorted related image base on chi-squrare distance similarity.
+![siftresult](https://user-images.githubusercontent.com/87762511/176985953-b5731d9a-f109-49eb-8a55-d95147e3dda4.jpeg)
