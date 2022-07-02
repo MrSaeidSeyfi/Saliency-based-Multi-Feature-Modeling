@@ -9,12 +9,17 @@ This project implemented based on [elsevier journal](https://www.sciencedirect.c
 ## Abstract
 Abstract
 Semantic gap is an important challenging problem in content-based image retrieval (CBIR) up to now. Bag-of-words (BOW) framework is a popular approach that tries to reduce the semantic gap in CBIR. In this paper, an approach integrating visual saliency model with BOW is proposed for semantic image retrieval. Images are firstly segmented into background regions and foreground objects by a visual saliency-based segmentation method. And then multi-features including Scale Invariant Feature Transform (SIFT) features packed in BOW are extracted from regions and objects respectively and fused considering different characteristics of background regions and foreground objects. Finally, a fusion of z-score normalized Chi-Square distance is adopted as the similarity measurement. This proposal has been implemented on two widely used benchmark databases and the results evaluated in terms of mean Average Precision (mAP) show that our proposal outperforms the referred state-of-the-art approaches.
-## Credits
+## Acknowledgments
 
 This project uses the following sourse codes:
 
-- [congve1](https://github.com/congve1/SaliencyRC) 
-- [rmislam](https://github.com/rmislam/PythonSIFT) 
+- [congve1](https://github.com/congve1/SaliencyRC) - Used for separating background & foreground
+- [rmislam](https://github.com/rmislam/PythonSIFT) - Used for extract foreground local features.
+
+# Authors
+- [MohammadReza](https://github.com/MohammadRezaZM) 
+- [Zahra](https://github.com/ZahraTalaa)
+- [saeid](https://github.com/MrSaeidSeyfi)
 
 ## Result
 For a given query image smfm framework sorted the related images base on chi-square distance similarity.
